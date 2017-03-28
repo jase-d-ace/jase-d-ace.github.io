@@ -1,3 +1,7 @@
+* {
+  font-family: "Josefin Sans", serif;
+}
+
 .wrapper {
   opacity: 0;
   height: 100px;
