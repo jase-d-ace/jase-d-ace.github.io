@@ -9,39 +9,40 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <script src='query.js'></script>
     <script src='script.js'></script>
+    <script src="ScrollMagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
   </head>
 
   <body>
-    <div class="name">
+    <div id="name">
       <header>
         <h1>Jason Andrada</h1>
+        <h3>Tennis Coach, Coffee Enthusiast, Full Stack Web Developer</h3>
       </header>
     </div>
-    <div class="about-me">
-      <h2>About Me</h2>
-      <p class="who-am-i">I used to be a part of corporate America, pushing spreadsheets for an investment firm. After finding that isn't for me, I've taken up the mantle of Full Stack Web Developer. I'm a graduate of NYU who approaches problems with a never-say-die mindset.
-      </p>
-    </div>
-    <div class="skills">
-      <h2>Web Development Skills</h2>
-      <ul>
-        <li>Front End: JavaScript, jQuery, HTML5, CSS3, ERB</li>
-        <li>Back End: Node, Express, Ruby on Rails</li>
-        <li>Databases: PostgreSQL</li>
-        <li>Deployment: Heroku</li>
-      </ul>
-      <h2>Sports Resume</h2>
-      <ul>
-        <li>2 Years of tennis coaching experience</li>
-        <li>10 years of competitive tennis</li>
-        <li>15 years of competitive soccer</li>
-      </ul>
-      <h2>Languages Spoken</h2>
-      <ul>
-        <li>French</li>
-        <li>Spanish</li>
-        <li>Tagalog</li>
-      </ul>
+    <div id="about-container">
+      <div class="about-me">
+        <div class="who-am-i">
+          <h2>About Me</h2>
+          <p>I used to be a part of corporate America, pushing spreadsheets for an investment firm. After realizing that a life like that wasn't for me, I took up the mantle of Full Stack Web Developer. I'm a graduate of NYU who approaches problems with
+            a never-say-die mindset.</p>
+        </div>
+      </div>
+      <div class="skills">
+        <h2>Skills</h2>
+        <div class="skill-showcase">
+          <h3>Web Development </h3>
+          <p>Front End: <br> JavaScript, jQuery, HTML5, CSS3, ERB <br> Back End: Node, Express, Ruby on Rails <br> Databases: PostgreSQL <br> Deployment: Heroku</p>
+          <br>
+          <h3>Sports Resume</h3>
+          <p>2 Years of tennis coaching experience <br> 10 years of competitive tennis <br> 15 years of competitive soccer <br>
+          </p>
+          <br>
+          <h3>Languages Spoken</h3>
+          <p>
+            French <br> Spanish <br> Tagalog <br>
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 
