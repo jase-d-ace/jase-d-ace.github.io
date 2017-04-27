@@ -3,17 +3,20 @@ $(document).ready(function() {
   setTimeout(function() {
     $('#name').addClass('magictime vanishIn');
   }, 500);
-  const controller = new ScrollMagic.Controller();
-  const scene = new ScrollMagic.Scene({
-    triggerElement: '#name',
-    offset: 700, //start next section after 700px of scrolling
-    duration: 100
-  }).setPin('.about-me')
-  controller.addScene(scene);
-  const sceneTwo = new ScrollMagic.Scene({
-    triggerElement: '.about-me',
-    offset: 300,
-    duration: 100
-  }).setPin('.skills');
-  controller.addScene(sceneTwo);
+  $(window).scroll(()=>{
+    if($(window).scrollTop() > 700){
+      $('.who-am-i').addClass('magictime vanishIn');
+    }//end of vanishIn
+    if($(window).scrollTop() > 1200){
+      $('.skills').addClass('magictime vanishIn');
+    }
+  })//end of scroll listener
+
+  $('.project-header').mouseenter(()=>{
+    $('.project-description').removeClass('closed');
+    $('.project-description').addClass('open');
+  }).mouseout(()=>{
+    $('.project-description').addClass('closed');
+    $('.project-description').removeClass('open');
+  })
 }); //end of document.ready
