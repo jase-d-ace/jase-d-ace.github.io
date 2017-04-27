@@ -1,6 +1,5 @@
-$(document).ready(function() {
-  console.log('bitches');
-  setTimeout(function() {
+$(document).ready(() => {
+  setTimeout(() => {
     $('#name').addClass('magictime vanishIn');
   }, 500);
   $(window).scroll(()=>{
@@ -12,11 +11,11 @@ $(document).ready(function() {
     }
   })//end of scroll listener
 
-  $('.project-header').mouseenter(()=>{
-    $('.project-description').removeClass('closed');
-    $('.project-description').addClass('open');
-  }).mouseout(()=>{
-    $('.project-description').addClass('closed');
-    $('.project-description').removeClass('open');
-  })
+  $('#header-one').hover(()=>{
+    $('#description-one').toggleClass('open')
+  });
+
+  // $('.project-header').hover(()=>{
+    // $('.project-description').toggleClass('open');
+  // })
 }); //end of document.ready
