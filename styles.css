@@ -118,13 +118,14 @@ body {
   width: 20%;
   line-height: 1.3;
   position: absolute;
-  visibility: hidden;
+  opacity: 0;
 }
 
-.open {
+
+/*.open {
   visibility: visible;
   left: 0;
-}
+}*/
 
 .project-header {
   align-content: center;

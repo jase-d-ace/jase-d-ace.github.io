@@ -9,22 +9,17 @@ $(document).ready(() => {
     if($(window).scrollTop() > 1200){
       $('.skill-showcase').addClass('magictime vanishIn');
     }
+    if($(window).scrollTop() > 1700){
+      $('#description-one').addClass('magictime puffIn')
+    }
+    if($(window).scrollTop() > 2000){
+      $('#description-two').addClass('magictime puffIn')
+    }
+    if($(window).scrollTop() > 2300){
+      $('#description-three').addClass('magictime puffIn');
+    }
+    if($(window).scrollTop() > 2600) {
+      $('#description-four').addClass('magictime puffIn');
+    }
   })//end of scroll listener
-
-  $('#header-one').hover(()=>{
-    $('#description-one').toggleClass('open')
-  });
-  $('#header-two').hover(()=>{
-    $('#description-two').toggleClass('open')
-  });
-  $('#header-three').hover(()=>{
-    $('#description-three').toggleClass('open')
-  });
-  $('#header-four').hover(()=>{
-    $('#description-four').toggleClass('open')
-  });
-
-  // $('.project-header').hover(()=>{
-    // $('.project-description').toggleClass('open');
-  // })
 }); //end of document.ready
