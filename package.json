@@ -8,6 +8,9 @@
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
   },
+  "engines":{
+    "node": "7.5.0"
+  },
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
@@ -26,7 +29,7 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
   },
   "scripts": {
-    "start": "nodemon app.js js,html,css"
+    "start": "node app.js"
   },
   "dependencies": {
     "cors": "^2.8.3",
