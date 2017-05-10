@@ -13,6 +13,12 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+.portfolio-modal .modal-body .image-link {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 2%;
+}
+
 #email-contact {
   text-align: center;
 }

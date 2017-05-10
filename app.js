@@ -4,7 +4,7 @@ const express = require('express'),
       cors = require('cors'),
       mailer = require('express-mailer'),
       mustacheExpress = require('mustache-express'),
-      PORT = process.env.PORT || 8080;
+      PORT = process.env.PORT || 3000;
 
 //hook up app
 const app = express();
