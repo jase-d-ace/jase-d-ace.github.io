@@ -18,7 +18,7 @@ p.small {
 }
 
 a, a:hover, a:focus, a:active, a.active {
-  color: #6B3637;
+  color: #4a0c60;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,17 +51,17 @@ hr.star-light {
 }
 
 hr.star-light:after {
-  background-color: #6B3637;
+  background-color: #4a0c60;
   color: white;
 }
 
 hr.star-primary {
-  border-color: #252A2E;
+  border-color: #2b242d;
 }
 
 hr.star-primary:after {
   background-color: white;
-  color: #252A2E;
+  color: #2b242d;
 }
 
 .img-centered {
@@ -70,7 +70,7 @@ hr.star-primary:after {
 
 header {
   text-align: center;
-  background: #6B3637;
+  background: #4a0c60;
   color: white;
 }
 
@@ -114,7 +114,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom {
-  background: #252A2E;
+  background: #2b242d;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -138,7 +138,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom .navbar-nav li a:hover {
-  color: #6B3637;
+  color: #4a0c60;
 }
 
 .navbar-custom .navbar-nav li a:focus, .navbar-custom .navbar-nav li a:active {
@@ -147,12 +147,12 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #6B3637;
+  background: #4a0c60;
 }
 
 .navbar-custom .navbar-nav li.active a:hover, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #6B3637;
+  background: #4a0c60;
 }
 
 .navbar-custom .navbar-toggle {
@@ -199,7 +199,7 @@ section h2 {
 }
 
 section.success {
-  background: #6B3637;
+  background: #4a0c60;
   color: white;
 }
 
@@ -225,7 +225,7 @@ section.success {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(107, 54, 55, 0.9);
+  background: rgba(74, 12, 96, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -233,6 +233,10 @@ section.success {
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
+}
+
+#about p {
+  font-size: 1.1em;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
@@ -316,7 +320,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #6B3637;
+  color: #4a0c60;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -331,9 +335,17 @@ footer h3 {
   margin-bottom: 30px;
 }
 
+footer a {
+  color: #8f17ba
+}
+
+footer a:hover {
+  color: #8f17ba
+}
+
 footer .footer-above {
   padding-top: 50px;
-  background-color: #252A2E;
+  background-color: #2b242d;
 }
 
 footer .footer-col {
@@ -342,7 +354,7 @@ footer .footer-col {
 
 footer .footer-below {
   padding: 25px 0;
-  background-color: #252A2E;
+  background-color: #2b242d;
 }
 
 .btn-outline {
@@ -362,8 +374,8 @@ footer .footer-below {
 
 .btn-primary {
   color: white;
-  background-color: #252A2E;
-  border-color: #252A2E;
+  background-color: #2b242d;
+  border-color: #2b242d;
   font-weight: 700;
 }
 
@@ -378,12 +390,12 @@ footer .footer-below {
 }
 
 .btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
-  background-color: #252A2E;
-  border-color: #252A2E;
+  background-color: #2b242d;
+  border-color: #2b242d;
 }
 
 .btn-primary .badge {
-  color: #252A2E;
+  color: #2b242d;
   background-color: white;
 }
 
@@ -396,7 +408,7 @@ footer .footer-below {
 
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #252A2E;
+  background-color: #2b242d;
   border-color: #11866f;
 }
 
@@ -405,12 +417,12 @@ footer .footer-below {
 }
 
 .btn-success.disabled, .btn-success[disabled], fieldset[disabled] .btn-success, .btn-success.disabled:hover, .btn-success[disabled]:hover, fieldset[disabled] .btn-success:hover, .btn-success.disabled:focus, .btn-success[disabled]:focus, fieldset[disabled] .btn-success:focus, .btn-success.disabled:active, .btn-success[disabled]:active, fieldset[disabled] .btn-success:active, .btn-success.disabled.active, .btn-success[disabled].active, fieldset[disabled] .btn-success.active {
-  background-color: #6B3637;
-  border-color: #6B3637;
+  background-color: #4a0c60;
+  border-color: #4a0c60;
 }
 
 .btn-success .badge {
-  color: #6B3637;
+  color: #4a0c60;
   background-color: white;
 }
 
@@ -469,7 +481,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .close-modal {
-  position: absolute;
+  position: fixed;
   width: 75px;
   height: 75px;
   background-color: transparent;
@@ -486,7 +498,7 @@ footer .footer-below {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #252A2E;
+  background-color: #2b242d;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -498,7 +510,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #252A2E;
+  background-color: #2b242d;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -530,7 +542,7 @@ footer .footer-below {
   position: absolute;
   left: 0px;
   top: 0px;
-  background: #6B3637;
+  background: #4a0c60;
   outline: 0;
   transition: top 0.1s ease-in, background 0.5s linear;
 }
