@@ -367,7 +367,7 @@ footer .footer-below {
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-  color: #6B0301;
+  color: #8f17ba;
   background: white;
   border: solid 2px white;
 }
@@ -401,8 +401,8 @@ footer .footer-below {
 
 .btn-success {
   color: white;
-  background-color: #6B0301;
-  border-color: #6B0301;
+  background-color: #8f17ba;
+  border-color: #8f17ba;
   font-weight: 700;
 }
 
