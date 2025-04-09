@@ -53,6 +53,12 @@ export const Projects = () => {
         setOpen(true);
         setProject(proj)
     }
+
+    const onClose = () => {
+        setOpen(false);
+        setProject({});
+    }
+
     return (
         <section id="projects" className="min-h-screen flex items-center justify-center py-20">
             <RevealOnScroll>
@@ -72,7 +78,7 @@ export const Projects = () => {
                             </div>
                         ))}
                     </div>
-                    <Modal open={open} onClose={() => setOpen(false)} project={project} />
+                    <Modal open={open} onClose={() => onClose()} project={project} />
                 </div>
             </RevealOnScroll>
         </section>
