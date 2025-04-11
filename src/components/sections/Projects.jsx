@@ -39,13 +39,13 @@ export const Projects = () => {
             name: "Annotations", 
             image: annotationsScreenshot,
             description: "lorem ipsum something something",
-            techsUsed: ["Vue.js", "Django", "Figma", "Growthbook", "jQuery"]
+            techsUsed: ["Vue.js", "Django", "Figma", "Postgres", "jQuery"]
         },
         {
             name: "Year in Review", 
             image: yearInReviewScreenshot,
             description: "lorem ipsum something something",
-            techsUsed: ["Vue.js", "Django", "Figma", "Growthbook", "jQuery"]
+            techsUsed: ["Vue.js", "Django", "Figma", "Elasticsearch", "jQuery"]
         }
     ]
 
