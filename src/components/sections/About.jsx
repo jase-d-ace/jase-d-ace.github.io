@@ -45,7 +45,7 @@ export const About = () => {
                         </p>
                     </div>
                     <div className="rounded-xl p-8">
-                        <h3 className="text-2xl font-bold mb-4">Work Experience</h3>
+                        <h3 className="text-2xl font-bold mb-4 text-center">Work Experience</h3>
                         {
                             workExperience.map(({ company, roles }) => (
                                 <div className="space-y-4 text-gray-300">
@@ -53,9 +53,9 @@ export const About = () => {
                                         <h4 className="text-2xl font-semibold">{company}</h4>
                                         <ul className=" ml-4 list-inside space-y-2">
                                             {roles.map(({ title, description, dates }) => (
-                                                <li className="mt-4">
-                                                    <strong className="text-xl">{title} </strong>({dates})
-                                                    <p className="text-sm">{description}</p>
+                                                <li className="py-2">
+                                                    <strong className="text-l">{title} </strong>({dates})
+                                                    <p className="ml-2 text-sm">{description}</p>
                                                 </li>
                                             ))}
                                         </ul>
