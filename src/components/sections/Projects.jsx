@@ -26,25 +26,25 @@ export const Projects = () => {
         {
             name: "Headline Testing", 
             image: headlineTestingScreenshot,
-            description: "lorem ipsum something something",
+            description: "This full-stack feature allows users to serve up to 5 different headlines to readers and then monitor the performance of each headline in realtime, allowing users to decide which headline performs the best for a given story.",
             techsUsed: ["Vue.js", "Django", "Figma", "Growthbook", "jQuery"]
         },
         {
             name: "Project Unity", 
             image: projectUnityScreenshot,
-            description: "lorem ipsum something something",
+            description: "Long-term product vision prototype that wireframes a funnel visualization, showing what content journeys are most common or successful, and how these journeys end.",
             techsUsed: ["Figma"]
         },
         {
             name: "Annotations", 
             image: annotationsScreenshot,
-            description: "lorem ipsum something something",
+            description: "Users are able to create custom notes in their dashboards.",
             techsUsed: ["Vue.js", "Django", "Figma", "Postgres", "jQuery"]
         },
         {
             name: "Year in Review", 
             image: yearInReviewScreenshot,
-            description: "lorem ipsum something something",
+            description: "End of year roundup and analysis of content performance. Echoes Spotify's Wrapped feature and provides fun labels and accolades for the year based on content performance.",
             techsUsed: ["Vue.js", "Django", "Figma", "Elasticsearch", "jQuery"]
         }
     ]
