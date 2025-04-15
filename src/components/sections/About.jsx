@@ -1,9 +1,9 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-    const frontEndSkills = ["React", "Vue", "TypeScript", "TailwindCSS", "jQuery", "CSS3", "HTML5",  "Shopify"];
-    const backEndSkills = ["Node.js", "Django", "FastAPI", "PostgreSQL", "Ruby on Rails", "ASP.NET Core", "RDS", "Elasticsearch"];
-    const designSkills = ["Figma", "Adobe inDesign", "User Interviews"];
+    const frontEndSkills = ["React", "Vue", "TypeScript", "JavaScript", "TailwindCSS", "jQuery", "CSS3", "HTML5",  "Shopify"];
+    const backEndSkills = ["Node.js", "Django", "FastAPI", "Python", "PostgreSQL", "Ruby on Rails", "ASP.NET Core", "RDS", "Elasticsearch"];
+    const designSkills = ["Figma", "Adobe inDesign", "User Interviews", "Product Vision"];
 
     const workExperience = [
         {
