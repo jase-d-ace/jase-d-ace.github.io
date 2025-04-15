@@ -38,9 +38,9 @@ export const About = () => {
         <section id="about" className="min-h-screen flex items-center justify-center py-20">
             <RevealOnScroll>
                 <div className="max-w-3xl mx-auto px-4">
-                    <h2 className="text-3xl font-bold mb-2 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">About Me</h2>
+                    <h2 className="text-3xl font-bold mb-2 bg-gradient-to-r from-cyan-400 to-fuchsia-600 bg-clip-text text-transparent text-center">About Me</h2>
                     <div className="rounded-xl p-8">
-                        <p className="text-gray-300 mb-6">
+                        <p className="text-gray-100 mb-6">
                         I’m a product-minded, user-focused full-stack engineer with a focus on front end development. I have experience on both sides of the stack, building production-scale UIs using Vue, React, and jQuery, and APIs in Django, FastAPI, and Node.js. I’ve spent the past 4 years helping Parse.ly build out its content analytics dashboard and deliver smooth user experiences for brands like Bon Appetit, Vox, and Slate. I’ve built features that surfaced low-performing content, Google Search performance, and conversion analysis. I’ve also led UX interviews for users, collaborated with engineers using both Figma and GitHub, and I’ve liaised with non-technical stakeholders as the face of a feature team.
                         </p>
                     </div>
@@ -48,7 +48,7 @@ export const About = () => {
                         <h3 className="text-2xl font-bold mb-4 text-center">Work Experience</h3>
                         {
                             workExperience.map(({ company, roles }) => (
-                                <div className="space-y-4 text-gray-300">
+                                <div className="space-y-4 text-gray-100">
                                     <div className="ml-3 mb-2">
                                         <h4 className="text-2xl font-semibold">{company}</h4>
                                         <ul className=" ml-4 list-inside space-y-2">
@@ -69,7 +69,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Front End Skills</h3>
                             <div className="flex flex-wrap gap-2">
                                 {frontEndSkills.map((skill, i) => (
-                                    <span key={i} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    <span key={i} className="bg-cyan-400/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-cyan-400/20 hover:shadow[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                         {skill}
                                     </span>
                                 ))}
@@ -79,7 +79,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Back End Skills</h3>
                             <div className="flex flex-wrap gap-2">
                                 {backEndSkills.map((skill, i) => (
-                                    <span key={i} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    <span key={i} className="bg-cyan-400/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-cyan-400/20 hover:shadow[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                         {skill}
                                     </span>
                                 ))}
@@ -89,7 +89,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Design Skills</h3>
                             <div className="flex flex-wrap gap-2">
                                 {designSkills.map((skill, i) => (
-                                    <span key={i} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    <span key={i} className="bg-cyan-400/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-cyan-400/20 hover:shadow[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                         {skill}
                                     </span>
                                 ))}

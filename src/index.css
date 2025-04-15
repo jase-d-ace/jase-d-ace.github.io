@@ -5,8 +5,8 @@ body {
   margin: 0;
   padding: o;
   font-family: "Gidole", sans-serif;
-  background: #0a0a0a;
-  color: #f3f4f6;
+  background: #323441;
+  color: #F5F5F8;
 }
 
 @layer utilities {
